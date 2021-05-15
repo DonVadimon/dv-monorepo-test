@@ -1,0 +1,25 @@
+.test-component {
+    border       : 1px solid black;
+    border-radius: 10px;
+    padding      : 16px;
+    width        : 360px;
+    text-align   : center;
+}
+
+.test-component h1 {
+    font-size: 64px;
+}
+
+.test-component h2 {
+    font-size: 48px;
+}
+
+.test-component.test-component-light {
+    background-color: white;
+    color           : black;
+}
+
+.test-component.test-component-dark {
+    background-color: dimgray;
+    color           : white;
+}

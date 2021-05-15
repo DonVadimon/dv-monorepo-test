@@ -1,0 +1,25 @@
+{
+    "name": "@monorepo-test/test-component",
+    "version": "1.0.0",
+    "description": "test component",
+    "keywords": ["js"],
+    "author": "Vadim Khizhnyakov <provcydia@gmail.com>",
+    "homepage": "",
+    "license": "MIT",
+    "main": "build/index.js",
+    "module": "build/index.es.js",
+    "files": ["build"],
+    "scripts": {
+        "build": "rollup -c",
+        "prepublishOnly": "npm run build"
+    },
+    "devDependencies": {
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2",
+        "@monorepo-test/common-rollup-config": "^1.0.0"
+    },
+    "peerDependencies": {
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2"
+    }
+}

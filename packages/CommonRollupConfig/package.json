@@ -1,0 +1,22 @@
+{
+    "name": "@monorepo-test/common-rollup-config",
+    "version": "1.0.0",
+    "description": "common rollup config",
+    "author": "Vadim Khizhnyakov <provcydia@gmail.com>",
+    "homepage": "",
+    "license": "ISC",
+    "type": "module",
+    "files": ["index.js"],
+    "scripts": {
+        "test": "echo \"Error: run tests from root\" && exit 1"
+    },
+    "peerDependencies": {
+        "@rollup/plugin-commonjs": "^19.0.0",
+        "@rollup/plugin-node-resolve": "^13.0.0",
+        "@types/rollup-plugin-peer-deps-external": "^2.2.0",
+        "rollup": "^2.47.0",
+        "rollup-plugin-peer-deps-external": "^2.2.4",
+        "rollup-plugin-postcss": "^4.0.0",
+        "rollup-plugin-typescript2": "^0.30.0"
+    }
+}
