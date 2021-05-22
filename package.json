@@ -1,5 +1,5 @@
 {
-    "name": "monorepo-test",
+    "name": "dv-monorepo-test",
     "version": "1.0.0",
     "description": "monorepo test",
     "main": "index.js",
