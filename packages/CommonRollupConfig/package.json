@@ -1,17 +1,24 @@
 {
     "name": "@dv-monorepo-test/common-rollup-config",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "common rollup config",
     "author": "Vadim Khizhnyakov <provcydia@gmail.com>",
     "homepage": "https://github.com/DonVadimon/dv-monorepo-test#readme",
     "license": "MIT",
     "type": "module",
-    "files": ["index.js"],
-    "repository": { "type": "git", "url": "git+https://github.com/DonVadimon/dv-monorepo-test.git" },
+    "files": [
+        "index.js"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/DonVadimon/dv-monorepo-test.git"
+    },
     "scripts": {
         "test": "echo \"Error: run tests from root\" && exit 1"
     },
-    "bugs": { "url": "https://github.com/DonVadimon/dv-monorepo-test/issues" },
+    "bugs": {
+        "url": "https://github.com/DonVadimon/dv-monorepo-test/issues"
+    },
     "peerDependencies": {
         "@rollup/plugin-commonjs": "^19.0.0",
         "@rollup/plugin-node-resolve": "^13.0.0",
