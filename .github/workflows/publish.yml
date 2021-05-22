@@ -23,6 +23,13 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     steps:
+      - name: Configure CI Git User
+        run: |
+          git config --global user.name '@DonVadimon'
+          git config --global user.email 'DonVadimon@users.noreply.github.com'
+          git remote set-url origin https://$GITHUB_ACTOR:$GH_PAT@github.com/DonVadimon/dv-monorepo-test
+        env:
+          GH_PAT: ${{secrets.GH_PAT}}
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
         with:
@@ -33,3 +40,4 @@ jobs:
       - run: yarn lerna:publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
+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
