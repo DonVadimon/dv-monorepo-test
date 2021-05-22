@@ -1,0 +1,10 @@
+{
+    "extends": "../../tsconfig.json",
+    "compilerOptions": {
+        "baseUrl": ".",
+        "declarationDir": "build",
+        "declaration": true
+    },
+    "include": ["src", "src/TestComponentTwo.stories.tsx"],
+    "exclude": ["build"]
+}

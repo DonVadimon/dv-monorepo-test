@@ -19,17 +19,17 @@ jobs:
       - run: yarn lerna:build
       - run: yarn test
 
-  # publish-npm:
-  #   needs: build
-  #   runs-on: ubuntu-latest
-  #   steps:
-  #     - uses: actions/checkout@v2
-  #     - uses: actions/setup-node@v2
-  #       with:
-  #         node-version: 14
-  #         registry-url: <replace-to-private-registry>
-  #     - run: yarn lerna:bootstrap
-  #     - run: yarn lerna:build
-  #     - run: yarn lerna:publish
-  #       env:
-  #         NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
+  publish-npm:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: 14
+          registry-url: https://registry.npmjs.org/
+      - run: yarn lerna:bootstrap
+      - run: yarn lerna:build
+      - run: yarn lerna:publish
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
