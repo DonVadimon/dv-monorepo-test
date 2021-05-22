@@ -22,6 +22,7 @@ const TestComponentTwo: React.FC<ITestComponentTwoProps> = ({ theme = 'dark' }) 
                     </button>
                 </div>
             </div>
+            <h1>Changes for changes</h1>
         </div>
     );
 };
