@@ -6,7 +6,7 @@
 <p>In new package directory run</p>
 
 ```
-yarn add @monorepo-test/test-component --dev
+yarn add @dv-monorepo-test/test-component --dev
 ```
 
 ## Usage

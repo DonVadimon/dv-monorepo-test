@@ -18,5 +18,5 @@
         "isolatedModules": true,
         "noEmit": true,
     },
-    "exclude": ["node_modules", "build", "storybook-static"]
+    "exclude": ["node_modules", "build", "storybook-static", "scripts"]
 }

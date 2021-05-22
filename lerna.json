@@ -2,5 +2,16 @@
     "packages": ["packages/*"],
     "version": "independent",
     "npmClient": "yarn",
-    "useWorkspaces": true
+    "useWorkspaces": true,
+    "command": {
+        "publish": {
+            "message": "chore(release): publish new version %s",
+            "registry": "https://registry.npmjs.org/"
+        }
+    },
+    "ignoreChanges": [
+        "**/*.md",
+        "**/*.test.*",
+        "**/*.stories.*"
+    ]
 }

@@ -1,5 +1,5 @@
 {
-    "name": "@monorepo-test/common-rollup-config",
+    "name": "@dv-monorepo-test/common-rollup-config",
     "version": "1.0.0",
     "description": "common rollup config",
     "author": "Vadim Khizhnyakov <provcydia@gmail.com>",

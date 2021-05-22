@@ -32,7 +32,7 @@ echo     "\"exclude\": [\"build\"]" >> tsconfig.json
 echo "}" >> tsconfig.json
 
 touch rollup.config.mjs
-echo "import { CommonConfig } from '@monorepo-test/common-rollup-config';" > rollup.config.mjs
+echo "import { CommonConfig } from '@dv-monorepo-test/common-rollup-config';" > rollup.config.mjs
 echo "export default CommonConfig;" >> rollup.config.mjs
 
 
@@ -50,8 +50,9 @@ cd ../../
 yarn run prettier --write "packages/$pkgname/tsconfig.json"
 yarn run prettier --write "packages/$pkgname/rollup.config.mjs"
 
+node scripts/PreparePackageJson.js "$pkgname"
+yarn run prettier --write "packages/$pkgname/package.json"
+lerna bootstrap
+
 echo "$pkgname created"
-echo "Run 'lerna add @monorepo-test/common-rollup-config --scope=<new-package-name> --dev' to build your package"
-echo "<new-package-name> is the name of your package written in it's package.json"
-echo "<new-package-name> seems to be something like '@monorepo-test/$pkgname'"
 echo "Make it cool -_-"

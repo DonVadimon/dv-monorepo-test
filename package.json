@@ -10,17 +10,21 @@
     "scripts": {
         "test": "jest",
         "test:watch": "jest --watch",
-        "build": "npx lerna run build",
         "lint": "eslint \"packages/**/src/**/*.+(js|jsx|ts|tsx|json)\"",
         "lint-fix": "eslint --fix \"packages/**/src/**/*.+(js|jsx|ts|tsx|json)\"",
         "prettier": "prettier --write \"packages/**/src/**/*.+(js|jsx|ts|tsx|json)\"",
         "storybook": "start-storybook -p 6006",
         "build-storybook": "build-storybook",
-        "prepublishOnly": "npm run build",
         "commit": "npx git-cz",
-        "lerna:publish": "npx lerna publish --conventional-commits",
+        "lerna:bootstrap": "npx lerna bootstrap",
+        "lerna:build": "npx lerna run build",
+        "lerna:publish": "npx lerna publish --conventional-commits --yes",
         "lerna:changed": "npx lerna changed",
-        "lerna:diff": "npx lerna diff"
+        "lerna:diff": "npx lerna diff",
+        "lerna:clean": "npx lerna clean",
+        "lerna:ll": "npx lerna ll",
+        "lerna:exec": "npx lerna exec --",
+        "create:component": "scripts/CreateComponentPackage.sh"
     },
     "devDependencies": {
         "@babel/core": "^7.14.0",
