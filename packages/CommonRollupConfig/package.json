@@ -1,6 +1,6 @@
 {
     "name": "@dv-monorepo-test/common-rollup-config",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "common rollup config",
     "author": "Vadim Khizhnyakov <provcydia@gmail.com>",
     "homepage": "https://github.com/DonVadimon/dv-monorepo-test#readme",
@@ -26,7 +26,7 @@
         "rollup": "^2.47.0",
         "rollup-plugin-peer-deps-external": "^2.2.4",
         "rollup-plugin-postcss": "^4.0.0",
-        "rollup-plugin-typescript2": "^0.30.0",
-        "rollup-plugin-terser": "^7.0.2"
+        "rollup-plugin-terser": "^7.0.2",
+        "rollup-plugin-typescript2": "^0.30.0"
     }
 }
