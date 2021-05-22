@@ -5,6 +5,15 @@
     "main": "index.js",
     "author": "Vadim Khizhnyakov <provcydia@gmail.com>",
     "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/DonVadimon/dv-monorepo-test.git"
+    },
+    "bugs": {
+        "url": "https://github.com/DonVadimon/dv-monorepo-test/issues"
+    },
+    "homepage": "https://github.com/DonVadimon/dv-monorepo-test#readme",
+
     "private": true,
     "workspaces": ["packages/*"],
     "scripts": {

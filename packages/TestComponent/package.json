@@ -4,15 +4,17 @@
     "description": "test component",
     "keywords": ["js"],
     "author": "Vadim Khizhnyakov <provcydia@gmail.com>",
-    "homepage": "",
+    "homepage": "https://github.com/DonVadimon/dv-monorepo-test#readme",
     "license": "MIT",
     "main": "build/index.js",
     "module": "build/index.es.js",
     "files": ["build"],
+    "repository": { "type": "git", "url": "git+https://github.com/DonVadimon/dv-monorepo-test.git" },
     "scripts": {
         "build": "rollup -c",
         "prepublishOnly": "npm run build"
     },
+    "bugs": { "url": "https://github.com/DonVadimon/dv-monorepo-test/issues" },
     "devDependencies": {
         "react": "^17.0.2",
         "react-dom": "^17.0.2",

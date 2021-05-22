@@ -1,0 +1,16 @@
+name: Tests
+
+on: push
+
+jobs:
+  all-tests:
+    runs-on: ubuntu-latest
+    name: All tests
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup node
+        uses: actions/setup-node@v2
+        with:
+          node-version: 14
+      - run: yarn lerna:bootstrap
+      - run: yarn test
