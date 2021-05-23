@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.0.7 (2021-05-23)
+
+
+### Reverts
+
+* Revert "feat: changes two" ([a8a372a](https://github.com/DonVadimon/dv-monorepo-test/commit/a8a372aee61639f6c89ffe56450b12f972af5633))
+
+
+
+
+
 ## 1.0.6 (2021-05-23)
 
 **Note:** Version bump only for package @don-vadimon/common-rollup-config
