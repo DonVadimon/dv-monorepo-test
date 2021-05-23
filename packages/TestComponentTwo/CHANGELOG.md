@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.1.0](https://github.com/DonVadimon/dv-monorepo-test/compare/@don-vadimon/test-component-two@1.0.9...@don-vadimon/test-component-two@1.1.0) (2021-05-23)
+
+
+### Features
+
+* **testcomponenttwo:** changes after fetch-depth 0 ([1e738a3](https://github.com/DonVadimon/dv-monorepo-test/commit/1e738a347817fe959a0f46af21699aed463a4696))
+
+
+
+
+
 ## 1.0.9 (2021-05-23)
 
 
