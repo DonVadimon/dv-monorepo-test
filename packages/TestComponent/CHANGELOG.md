@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.0.9 (2021-05-23)
+
+
+### Bug Fixes
+
+* **lerna.json:** ignore more changes ([dbb5a7d](https://github.com/DonVadimon/dv-monorepo-test/commit/dbb5a7dca4979c0724dc824eaeefeafcc1a4a933))
+
+
+
+
+
 ## 1.0.8 (2021-05-23)
 
 **Note:** Version bump only for package @don-vadimon/test-component
