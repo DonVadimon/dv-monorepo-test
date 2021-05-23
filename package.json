@@ -34,7 +34,8 @@
         "lerna:clean": "npx lerna clean",
         "lerna:ll": "npx lerna ll",
         "lerna:exec": "npx lerna exec --",
-        "create:component": "scripts/CreateComponentPackage.sh"
+        "create:component": "scripts/CreateComponentPackage.sh",
+        "git:fetch-tags": "git fetch --all --tags"
     },
     "devDependencies": {
         "@babel/core": "^7.14.0",
