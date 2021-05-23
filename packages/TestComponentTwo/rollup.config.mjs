@@ -1,2 +1,2 @@
-import { CommonConfig } from '@dv-monorepo-test/common-rollup-config';
+import { CommonConfig } from '@don-vadimon/common-rollup-config';
 export default CommonConfig;

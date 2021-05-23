@@ -26,7 +26,7 @@ const updatedPkgJson = {
     bugs: pkgJson.bugs,
     devDependencies: {
         ...pkgJson.devDependencies,
-        '@dv-monorepo-test/common-rollup-config': '^1.0.0',
+        '@don-vadimon/common-rollup-config': '^1.0.0',
     },
     peerDependencies: pkgJson.peerDependencies
 };

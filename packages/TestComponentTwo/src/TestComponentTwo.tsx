@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { TestComponent } from '@dv-monorepo-test/test-component';
+import { TestComponent } from '@don-vadimon/test-component';
 
 import { ITestComponentTwoProps } from './TestComponentTwo.types';
 

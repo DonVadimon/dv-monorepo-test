@@ -1,5 +1,5 @@
 {
-    "name": "@dv-monorepo-test/test-component-two",
+    "name": "@don-vadimon/test-component-two",
     "version": "1.0.4",
     "description": "test comp two",
     "keywords": [],
@@ -23,7 +23,7 @@
         "url": "https://github.com/DonVadimon/dv-monorepo-test/issues"
     },
     "devDependencies": {
-        "@dv-monorepo-test/common-rollup-config": "^1.0.4",
+        "@don-vadimon/common-rollup-config": "^1.0.4",
         "react": "^17.0.2",
         "react-dom": "^17.0.2"
     },
@@ -32,7 +32,7 @@
         "react-dom": "^17.0.2"
     },
     "dependencies": {
-        "@dv-monorepo-test/test-component": "^1.0.4"
+        "@don-vadimon/test-component": "^1.0.4"
     },
     "publishConfig": {
         "access": "public"

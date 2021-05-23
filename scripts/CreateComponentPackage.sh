@@ -32,7 +32,7 @@ echo     "\"exclude\": [\"build\"]" >> tsconfig.json
 echo "}" >> tsconfig.json
 
 touch rollup.config.mjs
-echo "import { CommonConfig } from '@dv-monorepo-test/common-rollup-config';" > rollup.config.mjs
+echo "import { CommonConfig } from '@don-vadimon/common-rollup-config';" > rollup.config.mjs
 echo "export default CommonConfig;" >> rollup.config.mjs
 
 
