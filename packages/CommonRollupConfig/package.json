@@ -1,6 +1,6 @@
 {
     "name": "@don-vadimon/common-rollup-config",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "description": "common rollup config",
     "author": "Vadim Khizhnyakov <provcydia@gmail.com>",
     "homepage": "https://github.com/DonVadimon/dv-monorepo-test#readme",
