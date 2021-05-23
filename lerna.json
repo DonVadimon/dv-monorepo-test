@@ -4,14 +4,14 @@
     "npmClient": "yarn",
     "useWorkspaces": true,
     "command": {
+        "version": {
+            "allowBranch": "main"
+        },
         "publish": {
+            "conventionalCommits": true,
             "message": "chore(release): publish new version %s",
             "registry": "https://registry.npmjs.org/"
         }
     },
-    "ignoreChanges": [
-        "**/*.md",
-        "**/*.test.*",
-        "**/*.stories.*"
-    ]
+    "ignoreChanges": ["**/*.md", "**/*.test.*", "**/*.stories.*", "**/node_modules/**", "**/package.json"]
 }
